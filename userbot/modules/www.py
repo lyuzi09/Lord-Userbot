@@ -93,18 +93,21 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
+    await pong.edit("Sharingann!!")
     await pong.edit("**𖣘**")
     await pong.edit("**𖣘𖣘**")
     await pong.edit("**𖣘𖣘𖣘**")
+    await pong.edit("**𖣘𖣘𖣘𖣘**")
+    await pong.edit("**𖣘𖣘𖣘𖣘𖣘**")
     await pong.edit("**✦҈͜͡➳ PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♛ Lord Ping ♛**\n"
-                    f"❃ **Ping:** "
-                    f"`%sms` \n"
-                    f"❃ **Uptime:** "
-                    f"`{uptime}` \n"
-                    f"**✦҈͜͡➳ My Lord:** `{ALIVE_NAME}`" % (duration))
+    await pong.edit(f"𖣘 **PING**\n "
+                    f"➥ `%sms`\n"
+                    f"𖣘 **UPTIME**\n"
+                    f"➥ `{uptime}`\n"
+                    f"𖣘 **MY MASTER** \n"
+                    f"➥ `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -113,15 +116,19 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("`Mengecek Sinyal...`")
-    await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
+    await pong.edit("**10% █▒▒▒▒▒▒▒▒▒**")
     await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
+    await pong.edit("**30% ███▒▒▒▒▒▒▒**")
     await pong.edit("**40% ████▒▒▒▒▒▒**")
+    await pong.edit("**50% █████▒▒▒▒▒**")
     await pong.edit("**60% ██████▒▒▒▒**")
+    await pong.edit("**70% ███████▒▒▒**")
     await pong.edit("**80% ████████▒▒**")
+    await pong.edit("**80% █████████▒**")
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- 𝐋 𝐎 𝐑 𝐃 -\n"
+    await pong.edit(f"-𝐋 𝐘 𝐙 𝐎-\n"
                     f"**• ꜱɪɴʏᴀʟ  :** "
                     f"`%sms` \n"
                     f"**• ᴏɴʟɪɴᴇ  :** "
