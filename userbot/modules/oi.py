@@ -20,9 +20,9 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Cuma Mau Bilang`")
     sleep(3)
-    await typew.edit("`Aku Sayang Kamu`")
+    await typew.edit("`Aku Ga Sayang Kamu`")
     sleep(1)
-    await typew.edit("`I LOVE YOU 💞`")
+    await typew.edit("`Kontol kau anjg!`")
 # Create by myself @localheart
 
 
