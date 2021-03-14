@@ -1,4 +1,4 @@
-<a href="https://cooltext.com"><img src="https://r67.cooltext.com/d.php?renderid=379009938918194&extension=gif" width="473" height="82" alt="RENZY USERBOT" /></a>
+<a href='https://postimg.cc/gn8HF1qB' target='_blank'><img src='https://i.postimg.cc/gn8HF1qB/cooltext379009938918194.gif' border='0' alt='cooltext379009938918194'/></a>
 
 
 <p align="center">
