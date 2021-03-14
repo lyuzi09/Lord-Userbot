@@ -297,7 +297,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**══━━━━━━✥ ◈ ✥━━━━━━══**\n"
-        f"             **RENZY USERBOT**  \n"
+        f"              **RENZY USERBOT**  \n"
         f"**══━━━━━━✥ ◈ ✥━━━━━━══**\n"
         f"┏━━━━━━━━━━━━━━━━━━━━━━ \n"
         f"┣|🇬🇧 `Copied From Lord-Userbot` \n"
