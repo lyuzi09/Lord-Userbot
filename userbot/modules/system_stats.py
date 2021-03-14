@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Lord-Userbot Versi:** \n "
+            "**☛**Lyzo-Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -223,17 +223,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
+        f" **┗┓Lyzo USERBOT┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**♛ Lord** \n"
+        f"**♛ Master** \n"
         f" ➥ `{DEFAULTUSER}` \n"
         f"**♛ Username** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
         f"┣[• `Telethon :`Ver {version.__version__} \n"
         f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
+        f"┣[• `Version  :`{BOT_VER} \n"
         f"┣[• `Modules  :`{len(modules)} \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
@@ -296,16 +296,21 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**♕ LYZO USERBOT** \n **Copied from Lord-Userbot** \n"
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Master   :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
-        f"┣|• `Telethon :`Ver {version.__version__} \n"
-        f"┣|• `Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Version  :`{BOT_VER} \n"
-        f"┣|• `Modules  :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
+        f"**══━━━━━━✥ ◈ ✥━━━━━━══**\n"
+        f"      **RENZY USERBOT**  \n"
+        f"**══━━━━━━✥ ◈ ✥━━━━━━══**\n\n"
+        f"┏━━━━━━━━━━━━━━━━━━━━━━ \n"
+        f"┣|🇬🇧 `Copied From Lord-Userbot` \n"
+        f"┗━━━━━━━━━━━━━━━━━━━━━━ \n"
+        f"┏━━━━━━━━━━━━━━━━━━━━━━ \n"
+        f"┣|🇬🇧 `Master   : `{DEFAULTUSER} \n"
+        f"┣|🇬🇧 `Username : `@{user.username} \n"
+        f"┣|🇬🇧 `Telethon : `Ver {version.__version__} \n"
+        f"┣|🇬🇧 `Python   : `Ver {python_version()} \n"
+        f"┣|🇬🇧 `Branch   : `{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|🇬🇧 `Version  : `{BOT_VER} \n"
+        f"┣|🇬🇧 `Modules  : `{len(modules)} Modules \n"
+        f"┗━━━━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
     if ALIVE_LOGO:
         try:
