@@ -11,7 +11,6 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(f"**Hallo Semua Saya Renzy**")
-    sleep(2)
     await typew.edit("`Assalamu'alaikum...`")
 
 
@@ -19,7 +18,6 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(f"**Hallo Semua Saya Renzy**")
-    sleep(2)
     await typew.edit("`Assalamu'alaikum...`")
 
 
@@ -27,7 +25,6 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
-    sleep(2)
     await typew.edit("`Wa'alaikumussalam`")
 
 
@@ -35,7 +32,6 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
-    sleep(2)
     await typew.edit("`Wa'alaikumussalam`")
 
 
