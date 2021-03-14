@@ -1,4 +1,4 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5501763.gif" width="473" height="82" alt="RENZY USERBOT" /></a>
+<a href="https://cooltext.com"><img src="https://r67.cooltext.com/d.php?renderid=379009938918194&extension=gif" width="473" height="82" alt="RENZY USERBOT" /></a>
 
 
 <p align="center">
@@ -11,11 +11,11 @@
   </a>
 </p>  
 
-# Lord Userbot
+# Renzy Userbot
 ![Lord Userbot Logo](https://i.postimg.cc/TYjxZSkg/images.jpg)
 
-<h3 align="center">Just For Fun!</h3>
-<p align="center">&nbsp;</p>
+<h3 align="left">Just For Fun!</h3>
+<p align="left">&nbsp;</p>
 
 # Copied from 
-[Lord-Userbot] (https://github.com/Zora24/Lord-Userbot)
+(https://github.com/Zora24/Lord-Userbot)
