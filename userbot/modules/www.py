@@ -94,8 +94,6 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("**Sharingann!!**")
-    await pong.edit("**Sharingann!!**")
-    await pong.edit("**Sharingann!!**")
     await pong.edit("**𖣘**")
     await pong.edit("**𖣘**")
     await pong.edit("**𖣘𖣘**")
@@ -106,10 +104,9 @@ async def pingme(pong):
     await pong.edit("**𖣘𖣘𖣘𖣘**")
     await pong.edit("**𖣘𖣘𖣘𖣘𖣘**")
     await pong.edit("**𖣘𖣘𖣘𖣘𖣘**")
-    await pong.edit("**« PONG! »**")
     await pong.edit("**« PONG! »**")
     end = datetime.now()
-    duration = (end - start).microseconds / 9000
+    duration = (end - start).microseconds / 15000
     await pong.edit(f"❃ **PING :** \n"
                     f"➥ `%sms` \n"
                     f"❃ **BOT UPTIME :** \n"
