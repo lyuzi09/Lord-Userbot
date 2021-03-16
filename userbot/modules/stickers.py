@@ -25,7 +25,6 @@ from userbot.events import register
 
 KANGING_STR = [
     "Sunshine, daisies, butter mellow \nTurn this stupid, fat rat yellow",
-    "Stickermu bagus, Colong ah, Xixixi",
 ]
 
 
@@ -242,7 +241,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Lord Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
+            f"**Alright Master!\nThis your Updated Sticker Pack!** **[TAP THIS](t.me/addstickers/{packname})** **For see your Sticker Pack!**",
             parse_mode="md",
         )
 
