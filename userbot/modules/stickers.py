@@ -241,7 +241,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Alright Master!\nThis your Updated Sticker Pack!** **[TAP THIS](t.me/addstickers/{packname})** **For see your Sticker Pack!**",
+            f"**Alright Master!** \n**This your Updated Sticker Pack!** \n**[RENDY](t.me/addstickers/{packname})** **Tap to see your Sticker Pack!**",
             parse_mode="md",
         )
 
